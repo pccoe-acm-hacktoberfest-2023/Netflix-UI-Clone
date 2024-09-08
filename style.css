@@ -1,0 +1,692 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", "Roboto", " Ubuntu", "sans-serif";
+    overflow-x: hidden;
+}
+
+header {
+    background-image: url("assets/images/backimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+}
+
+.shodow {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.664);
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+
+.logo img {
+    height: 53px;
+
+}
+
+.btn {
+    color: #ffffff;
+    background-color: aqua;
+    font-size: 16;
+    font-weight: 400;
+    padding: 8px 20px;
+    margin: 0 10px;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+nav {
+    position: relative;
+    margin: auto;
+    padding: 25px 0 0 0;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+
+}
+
+.logo img {
+    width: 200px;
+    height: 45px;
+
+}
+
+.black {
+    padding: 10px 40px;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    background-color: rgba(41, 41, 41, 0.603);
+}
+
+.red {
+    padding: 10px 22px;
+    background-color: rgb(229, 9, 20);
+}
+
+article {
+    position: relative;
+    padding-top: 200px;
+    color: #ffffff;
+    text-align: center;
+    z-index: 2;
+}
+
+.para-1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.para-2 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.para-3 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.email {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding: 16px 10px;
+    padding-right: 155px;
+    font-size: 20px;
+    margin: 0 2px;
+
+}
+
+.started {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 13px 40px;
+    margin: 0 2px;
+}
+
+article div {
+    margin: 0 10px;
+    margin-top: 20px;
+}
+
+article .btns {
+    width: 100%;
+}
+
+.separator {
+    height: 10px;
+    background-color: rgba(20, 20, 20, 0.89);
+}
+
+section {
+    width: 100%;
+    height: 95vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.details {
+    text-align: left;
+    width: 48vw;
+}
+
+.details div {
+    margin: 15px 80px;
+}
+
+.frame {
+    width: 50vw;
+    position: relative;
+}
+
+.frame-img {
+    position: relative;
+    z-index: 2;
+
+}
+
+.frame-vid {
+    width: 401px;
+    height: 268px;
+    position: absolute;
+    top: 64px;
+    left: 71px;
+    z-index: 1;
+
+}
+
+.frame-img img {
+    width: 540px;
+    height: 400px;
+
+}
+
+.frame-vid video {
+
+    width: 410px;
+    height: 268px;
+}
+
+.frame-3 .frame-vid {
+    width: 334px;
+    height: 175px;
+    top: 38px;
+    left: 105px;
+}
+
+.frame-3 .frame-vid video {
+    width: 326px;
+    height: 183px;
+}
+
+.section-2 .details div {
+    margin: 20px 10px;
+}
+
+.section-faq {
+    height: 120vh;
+}
+
+.faq {
+    width: 78vw;
+}
+
+.faq .btns {
+    width: 77vw;
+}
+
+.faq div {
+    margin: 10px 0;
+}
+
+.text-faq {
+    text-align: center;
+}
+
+.black-faq {
+    width: 77vw;
+    height: 11vh;
+    margin: 0;
+    background-color: rgba(127, 126, 126, 0.232);
+    text-align: left;
+}
+
+.ready-text,
+.ready .btns {
+    text-align: center;
+}
+
+.ready {
+    padding-top: 40px;
+}
+
+.black-faq:hover{
+    background-color: rgba(68, 68, 68, 0.511);
+}
+
+footer{
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-evenly; */
+    color: rgba(255, 255, 255, 0.7); 
+    font-size: 14px;
+    font-weight: 600;
+}
+.myfooter{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center;
+    justify-content: ; */
+    gap: 16px;
+}
+
+.que ,.myfooter,footer .btns,.net{
+    margin: auto;
+    width: 76vw;
+}
+.que{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.net,footer .btns{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer .btns button{
+    margin-left: 0;
+}
+footer .btns,.que{
+    font-size: 16px;
+}
+footer a{
+    color: rgba(255, 255, 255, 0.7); 
+}
+/* #cspan{
+    position: relative;
+}
+#cspan #span{
+    color:#ffffff;
+    position: absolute;
+    font-size: 19px;
+    top:-4px;
+    left: 15px;
+}
+.email:focus{
+    #cspan #span{
+        
+        font-size: 19px;
+        top:-18px;
+        left: 10px;
+    }    
+} */
+
+@media only screen and (max-width:1280px) {
+    
+    nav {
+        width: 100%;
+    }
+    
+    .para-1 {
+        font-size: 32px;
+        font-weight: 900;
+    }
+    
+    .para-2 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .para-3 {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    
+    .details div {
+        margin: 15px 50px;
+    }
+    
+    .details {
+        width: 38vw;
+    }
+    
+    .frame {
+        width: 60vw;
+    }
+    
+    
+}
+
+@media only screen and (max-width:900px) {
+    header {
+        height: 90vh;
+    }
+    
+    .shodow {
+        height: 90vh;
+    }
+    
+    .logo img {
+        width: 150px;
+        height: 30px;
+        
+    }
+    
+    article {
+        padding-top: 100px;
+    }
+    
+    .black {
+        padding: 8px 20px;
+    }
+    
+    .red {
+        padding: 8px 15px;
+    }
+    
+    section {
+        flex-direction: column;
+        height: 110vh;
+        padding-top: 50px;
+    }
+    
+    .details {
+        width: 80vw;
+        text-align: center;
+    }
+    
+    .details div {
+        margin-top: auto;
+    }
+    
+    
+    .frame {
+        width: 520px;
+        height: 406px;
+    }
+    
+    .frame-img {
+        width: 520px;
+        height: 406px;
+        overflow-y: hidden;
+    }
+    
+    .frame-img img {
+        width: 519px;
+        height: 400px;
+    }
+    
+    .frame-vid {
+        width: 433px;
+        height: 323px;
+    }
+    
+    .frame-vid video {
+        width: 433px;
+        height: 268px;
+    }
+    
+    .section-2 {
+        justify-content: space-evenly;
+        padding-top: 0;
+    }
+    
+    .frame-3 .frame-vid {
+        width: 325px;
+    }
+
+    footer{
+        height: 69vh;
+    }
+
+    .myfooter{
+        grid-template-columns: 1fr 1fr;
+    }
+    .que ,.myfooter,footer .btns,.net{
+        width: 92vw;
+    }
+    .que{
+        margin-top: 20px;
+    }
+    
+}
+
+@media only screen and (max-width:615px) {
+    
+    header {
+        height: 100vh;
+    }
+    
+    .shodow {
+        height: 100vh;
+    }
+    
+    .email {
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    
+    .started {
+        display: block;
+        margin: auto;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    section {
+        height: 110vh;
+    }
+    
+    .frame {
+        margin-top: 50px;
+        width: 364px;
+        height: 284px;
+    }
+    
+    .frame-img {
+        width: 363px;
+        height: 280px;
+    }
+    
+    .frame-img img {
+        width: 363px;
+        height: 280px;
+    }
+    
+    .frame-vid {
+        
+        top: 51px;
+        left: 48px;
+        width: 272px;
+        height: 166px;
+    }
+    
+    .frame-vid video {
+        
+        width: 272px;
+        height: 166px;
+    }
+    
+    /* .frame-2{
+        margin-top: 20px;
+    } */
+    .frame-3 .frame-vid {
+        width: 227px;
+        height: 119px;
+        top: 25px;
+        left: 70px;
+        overflow-y: hidden;
+        
+    }
+    
+    .frame-3 .frame-vid video {
+        width: 225px;
+        height: 129px;
+    }
+    .section-faq {
+        height: 130vh;
+    }
+}
+
+@media only screen and (max-width:390px) {
+    
+    header {
+        height: 110vh;
+    }
+    
+    .shodow {
+        height: 110vh;
+    }
+    
+    .logo img {
+        width: 130px;
+        height: 30px;
+        
+    }
+    
+    .black {
+        padding: 8px 15px;
+    }
+    
+    .red {
+        padding: 8px 10px;
+    }
+    
+    article {
+        padding-top: 50px;
+    }
+    
+    .email {
+        padding-right: 2vw;
+    }
+    
+    section {
+        height: 90vh;
+    }
+    
+    .section-2 {
+        height: 100vh;
+    }
+    
+    .details {
+        width: 100%;
+    }
+    
+    .frame {
+        margin-top: 0px;
+        width: 291px;
+        height: 227px;
+    }
+    
+    .frame-img {
+        width: 290px;
+        height: 224px;
+    }
+    
+    .frame-img img {
+        width: 290px;
+        height: 224px;
+    }
+    
+    .frame-vid {
+        
+        top: 41px;
+        left: 38px;
+        width: 217px;
+        height: 132px;
+    }
+    
+    .frame-vid video {
+        
+        width: 217px;
+        height: 132px;
+    }
+    
+    .frame-3 .frame-vid {
+        width: 177px;
+        height: 98px;
+        top: 22px;
+        left: 56px;
+        overflow-y: hidden;
+    }
+    
+    .frame-3 .frame-vid video {
+        width: 177px;
+        height: 95px;
+        
+    }
+    
+    .section-3 {
+        justify-content: space-evenly;
+    }
+    .section-faq {
+        height: 140vh;
+    }
+    /* .ready {
+    } */
+}
+
+@media only screen and (max-width:300px) {
+    header {
+        height: 110vh;
+    }
+    
+    .shodow {
+        
+        height: 110vh;
+    }
+
+    nav {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    article {
+        padding-top: 0px;
+    }
+
+
+    .details {
+        overflow-y: hidden;
+    }
+
+    .frame {
+        width: 174px;
+        height: 136px;
+        overflow-y: hidden;
+    }
+
+    .frame-img {
+        width: 173px;
+        height: 134px;
+    }
+
+    .frame-img img {
+        width: 173px;
+        height: 134px;
+    }
+
+    .frame-vid {
+
+        top: 25px;
+        left: 23px;
+        width: 130px;
+        height: 79px;
+    }
+
+    .frame-vid video {
+
+        width: 130px;
+        height: 79px;
+    }
+
+    .section-2 .details div,
+    .details div {
+        margin: 15px 20px;
+    }
+
+    .frame-3 .frame-vid {
+        width: 116px;
+        height: 65px;
+        top: 13px;
+        left: 37px;
+    }
+
+    .frame-3 .frame-vid video {
+        width: 126px;
+        height: 71px;
+
+    }
+
+    .frame-3 {
+        width: 185px;
+        height: 141px;
+    }
+
+    .frame-3 .frame-img {
+
+        width: 191px;
+        height: 148px;
+    }
+
+    .frame-3 .frame-img img {
+
+        width: 192px;
+        height: 152px;
+    }
+    footer{
+        height: 80vh;
+    }
+}
