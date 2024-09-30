@@ -1,7 +1,7 @@
 # Netflix UI Clone
 ```
 This netflix clone is UI clone only. It doen't have any functionality.
-This is clone is part of Sigma Web Development Course by CodeWithHarry.
+This is clone is part of Sigma Web Development Course by CodeWithHarry. This project was very helpfull to me. Thank you
 ```
 The project in based on HTML CSS is This repository contains a collection of web programs implemented in HTML ,CSS demonstrating key concepts like style , animation, responsive, and more. The programs are designed to help you understand and apply web technology and making the perfect grip on web technology
 
